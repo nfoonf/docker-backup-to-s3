@@ -14,6 +14,6 @@ RUN chmod +x /start.sh
 
 ADD sync.sh /sync.sh
 RUN chmod +x /sync.sh
-
+ADD mycron /mycron
 ENTRYPOINT ["/start.sh"]
 CMD [""]
